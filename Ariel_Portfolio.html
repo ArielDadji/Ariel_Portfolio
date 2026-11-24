@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Ariel Dadji — GIS & Cartography Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<title>Ariel Dadji | GIS, Geomatics & IT Portfolio</title>
+<meta name="description" content="Portfolio of Ariel Dadji: GIS analyst with a Master of Engineering in Surveying and Land Registry, now studying Computer Information Systems. Based in Abbotsford, BC.">
+<meta name="theme-color" content="#070C11">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--ink:#0F1923;--teal:#0E6E72;--teal2:#0B5A5E;--gold:#C9A84C;--off:#F5F3EF;--mid:#8A9BA8;--white:#fff;--r:6px}
@@ -12,7 +14,7 @@ html,body{height:100%;font-family:'Space Grotesk',sans-serif;background:var(--of
 
 /* ── NAV ── */
 nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:0 60px;height:64px;background:rgba(15,25,35,.97);backdrop-filter:blur(10px)}
-.nav-logo{font-family:'DM Serif Display',serif;font-size:1.1rem;color:#fff;cursor:pointer;text-decoration:none}.nav-logo span{color:var(--gold)}
+.nav-logo{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;color:#fff;cursor:pointer;text-decoration:none}.nav-logo span{color:var(--gold)}
 .nav-links{display:flex;gap:4px}
 .nav-btn{padding:8px 20px;border-radius:100px;font-size:.82rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:none;background:transparent;color:var(--mid);transition:all .2s}
 .nav-btn:hover{color:#fff}.nav-btn{text-decoration:none}.home-nav-btn{text-decoration:none}
@@ -28,7 +30,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
 .home-hero::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;border:1px solid rgba(14,110,114,.15);top:50%;left:50%;transform:translate(-50%,-50%)}
 .home-hero::after{content:'';position:absolute;width:900px;height:900px;border-radius:50%;border:1px solid rgba(14,110,114,.07);top:50%;left:50%;transform:translate(-50%,-50%)}
 .home-tag{font-size:.72rem;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:24px}
-.home-name{font-family:'DM Serif Display',serif;font-size:clamp(2.8rem,6vw,5rem);color:#fff;line-height:1.05;margin-bottom:16px}
+.home-name{font-family:'Space Grotesk',sans-serif;font-size:clamp(2.8rem,6vw,5rem);color:#fff;line-height:1.05;margin-bottom:16px}
 .home-subtitle{font-size:1rem;color:var(--mid);margin-bottom:48px;letter-spacing:.05em}
 .home-nav-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;position:relative;z-index:1}
 .home-nav-btn{padding:14px 36px;border-radius:100px;font-size:.88rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:1px solid rgba(14,110,114,.4);background:transparent;color:#fff;transition:all .25s}
@@ -42,7 +44,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
 .page-inner{max-width:1100px;margin:0 auto;padding:80px 60px}
 .page-header{margin-bottom:64px}
 .page-label{font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
-.page-title{font-family:'DM Serif Display',serif;font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin-bottom:12px}
+.page-title{font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin-bottom:12px}
 .page-sub{color:var(--mid);font-size:.97rem;max-width:600px;line-height:1.75}
 
 /* ── ABOUT ── */
@@ -57,7 +59,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
 .edu-meta{font-size:.78rem;color:var(--mid);margin-top:2px}
 .stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px}
 .stat-box{padding:24px;background:var(--off);border-left:3px solid var(--teal)}
-.stat-n{font-family:'DM Serif Display',serif;font-size:2.4rem;color:var(--teal);line-height:1}
+.stat-n{font-family:'Space Grotesk',sans-serif;font-size:2.4rem;color:var(--teal);line-height:1}
 .stat-l{font-size:.73rem;color:var(--mid);font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
 .cert-list{margin-top:24px}
 .cert-item{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid rgba(0,0,0,.06);font-size:.88rem;color:var(--ink)}
@@ -83,7 +85,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
 .card-body{padding:22px}
 .card-badge{display:inline-block;padding:3px 12px;background:var(--gold);border-radius:100px;font-size:.68rem;font-weight:700;color:var(--ink);letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
 .card-org{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teal);margin-bottom:6px}
-.card-title{font-family:'DM Serif Display',serif;font-size:1.1rem;color:var(--ink);margin-bottom:8px;line-height:1.25}
+.card-title{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;color:var(--ink);margin-bottom:8px;line-height:1.25}
 .card-desc{font-size:.82rem;color:#5a6a76;line-height:1.65;margin-bottom:14px}
 .card-footer{display:flex;justify-content:space-between;align-items:center}
 .card-tags{display:flex;flex-wrap:wrap;gap:5px}
@@ -95,7 +97,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
 .detail-header{background:var(--ink);padding:60px 60px 48px}
 .back-btn{display:inline-flex;align-items:center;gap:8px;color:var(--mid);font-size:.82rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:none;background:none;margin-bottom:32px;transition:color .2s;padding:0}
 .back-btn:hover{color:var(--gold)}.back-btn::before{content:'← '}
-.detail-header h1{font-family:'DM Serif Display',serif;font-size:clamp(1.8rem,3.5vw,2.8rem);color:#fff;line-height:1.1;margin-bottom:12px}
+.detail-header h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.8rem,3.5vw,2.8rem);color:#fff;line-height:1.1;margin-bottom:12px}
 .dsub{color:var(--mid);font-size:.9rem;line-height:1.75;max-width:800px;margin-bottom:24px}
 .dtags{display:flex;flex-wrap:wrap;gap:8px}
 .dtag{padding:5px 14px;border:1px solid rgba(14,110,114,.5);border-radius:100px;font-size:.72rem;color:#5fc8cc;font-weight:600}
@@ -106,7 +108,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
 .pd{background:rgba(14,110,114,.12);color:#5fc8cc;border:1px solid rgba(14,110,114,.3)}
 .pa{background:rgba(240,245,248,1);color:var(--ink);border:1px solid rgba(0,0,0,.12)}
 .pstar{background:rgba(201,168,76,.15);color:#b8862a;border:1px solid rgba(201,168,76,.5)}
-.phase h3{font-family:'DM Serif Display',serif;font-size:1.5rem;color:var(--ink);margin-bottom:10px}
+.phase h3{font-family:'Space Grotesk',sans-serif;font-size:1.5rem;color:var(--ink);margin-bottom:10px}
 .pdesc{color:#5a6a76;font-size:.9rem;line-height:1.75;margin-bottom:28px;max-width:800px}
 .grid{display:grid;gap:16px;margin-bottom:20px}
 .g1{grid-template-columns:1fr;max-width:960px}
@@ -147,7 +149,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
   .g2,.g3{grid-template-columns:1fr}
   .home-footer-bar{padding:16px 20px}
 }
+:root{--ink:#0A1118;--teal:#0E6E72;--teal2:#0A5A5E;--acc:#2DD4BF;--acc2:#7EE8DC;--gold:#F2C14E;--off:#F4F6F8;--mid:#7B8B98;--r:18px;--card-sh:0 1px 2px rgba(10,17,24,.04),0 8px 28px rgba(10,17,24,.06)}html{scroll-behavior:smooth}html,body{height:auto;min-height:100%}body{font-family:'Inter','Space Grotesk',system-ui,sans-serif;background:#F4F6F8;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}::selection{background:var(--acc);color:var(--ink)}:focus-visible{outline:2px solid var(--acc);outline-offset:3px}nav{top:14px;left:50%;right:auto;transform:translateX(-50%);width:min(940px,calc(100% - 24px));height:56px;padding:0 8px 0 24px;border-radius:100px;background:rgba(10,17,24,.72);-webkit-backdrop-filter:blur(18px) saturate(150%);backdrop-filter:blur(18px) saturate(150%);border:1px solid rgba(255,255,255,.1);box-shadow:0 10px 40px rgba(0,0,0,.25)}.nav-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:-.01em}.nav-logo span{color:var(--acc)}.nav-btn{padding:8px 16px;font-size:.78rem;letter-spacing:.04em;color:#a9b8c3}.nav-btn:hover{color:#fff;background:rgba(255,255,255,.08)}.nav-btn.active{background:linear-gradient(135deg,#14A3A8,#0E6E72);color:#fff;box-shadow:0 4px 14px rgba(20,163,168,.35)}.page-inner{max-width:1120px;padding:64px 40px 96px}.page-header{margin-bottom:56px}.page-label{display:inline-flex;align-items:center;padding:6px 14px;border-radius:100px;background:rgba(14,110,114,.1);color:var(--teal);font-size:.72rem;font-weight:700;letter-spacing:.14em;margin-bottom:18px}.page-title{font-weight:700;letter-spacing:-.035em;font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1.05;margin-bottom:16px}.page-sub{color:#5b6b78;font-size:1.02rem;max-width:640px}#page-about{background:#F4F6F8}.edu-item,.edu-item:last-child{padding:20px 24px;margin-bottom:12px;border:1px solid rgba(10,17,24,.07);border-radius:16px;background:#fff;box-shadow:var(--card-sh)}.edu-degree{font-weight:700;letter-spacing:-.01em}.stat-box{border:1px solid rgba(10,17,24,.07);border-left:1px solid rgba(10,17,24,.07);border-radius:18px;background:#fff;box-shadow:var(--card-sh)}.stat-n{font-weight:700;letter-spacing:-.03em;background:linear-gradient(120deg,#0E6E72,#14A3A8);-webkit-background-clip:text;background-clip:text;color:transparent}.cert-item{border-bottom:1px solid rgba(10,17,24,.06)}.skill-card{border-radius:22px;padding:30px;box-shadow:var(--card-sh);border:1px solid rgba(10,17,24,.07);transition:transform .3s,box-shadow .3s}.skill-card:hover{transform:translateY(-4px);box-shadow:0 20px 50px rgba(10,17,24,.1)}.skill-card-title{display:flex;align-items:center;gap:12px;border-bottom:none;padding-bottom:0;margin-bottom:20px;color:var(--ink);letter-spacing:.1em}.skill-card-title::before{content:'';width:22px;height:4px;border-radius:4px;background:linear-gradient(90deg,#14A3A8,#F2C14E)}.skill-tag{background:#F0F3F6;font-weight:500}.skill-tag.highlight{background:rgba(14,110,114,.1);color:var(--teal);font-weight:600}.skill-card.feat{background:linear-gradient(160deg,#0f2330,#0A1118);border-color:rgba(255,255,255,.08)}.skill-card.feat .skill-card-title{color:#fff}.skill-card.feat .skill-tag{background:rgba(255,255,255,.08);color:#d3e0e7}.skill-card.feat .skill-tag.highlight{background:rgba(45,212,191,.16);color:var(--acc2)}.proj-card{border-radius:22px;box-shadow:var(--card-sh);transition:transform .3s,box-shadow .3s}.proj-card:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(10,17,24,.14)}.card-thumb{transition:transform .6s}.proj-card:hover .card-thumb{transform:scale(1.05)}.card-body{padding:24px}.card-title{font-weight:700;letter-spacing:-.015em}.card-tag{background:#F0F3F6}#page-detail{padding-top:0}.detail-header{padding:116px 60px 56px;background:radial-gradient(700px 300px at 15% 0%,rgba(45,212,191,.22),transparent 70%),radial-gradient(500px 300px at 90% 100%,rgba(242,193,78,.12),transparent 70%),#0A1118}.detail-header h1{font-weight:700;letter-spacing:-.03em}.back-btn{padding:8px 16px;border-radius:100px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#cfdbe3;text-decoration:none}.back-btn:hover{background:rgba(255,255,255,.12);color:#fff}.map-card{border-radius:18px;box-shadow:var(--card-sh)}.phase h3{font-weight:700;letter-spacing:-.02em}#page-contact{padding-top:0;background:radial-gradient(700px 420px at 18% 20%,rgba(45,212,191,.2),transparent 70%),radial-gradient(600px 420px at 85% 80%,rgba(242,193,78,.14),transparent 70%),#070C11}.contact-inner{min-height:100vh;padding-top:120px}.contact-inner .page-label{background:rgba(45,212,191,.12);color:var(--acc2)}.contact-inner .page-title{font-size:clamp(2.4rem,6vw,4.4rem)}.contact-btn{border-radius:100px;padding:15px 30px;font-weight:600}.contact-btn.primary{background:linear-gradient(135deg,#2DD4BF,#14A3A8);color:#04201f;font-weight:700;box-shadow:0 8px 28px rgba(45,212,191,.28)}.contact-btn.primary:hover{background:linear-gradient(135deg,#5EEAD4,#2DD4BF);transform:translateY(-2px)}.contact-btn.outline{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.16)}.contact-btn.outline:hover{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.3)}#page-home{background:#070C11;padding-top:0;min-height:100vh;color:#e8eef2}.mx-hero{position:relative;overflow:hidden;min-height:100vh;display:flex;align-items:center;padding:120px 40px 90px;background:#070C11}.mx-aurora{position:absolute;inset:-20%;pointer-events:none;filter:blur(60px)}.mx-aurora i{position:absolute;border-radius:50%}.mx-aurora i:nth-child(1){width:46vw;height:46vw;left:-6%;top:-8%;background:radial-gradient(circle,rgba(20,184,166,.5),transparent 65%);animation:mxFloat 18s ease-in-out infinite}.mx-aurora i:nth-child(2){width:38vw;height:38vw;right:-4%;top:10%;background:radial-gradient(circle,rgba(242,193,78,.26),transparent 65%);animation:mxFloat 22s ease-in-out infinite reverse}.mx-aurora i:nth-child(3){width:34vw;height:34vw;left:30%;bottom:-18%;background:radial-gradient(circle,rgba(56,120,246,.28),transparent 65%);animation:mxFloat 26s ease-in-out infinite}.mx-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(ellipse 80% 70% at 50% 40%,#000 30%,transparent 80%);mask-image:radial-gradient(ellipse 80% 70% at 50% 40%,#000 30%,transparent 80%)}.mx-hero-in{position:relative;z-index:1;max-width:1180px;margin:0 auto;width:100%;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}.mx-pill{display:inline-flex;align-items:center;gap:10px;padding:7px 16px 7px 12px;border-radius:100px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);font-size:.78rem;color:#cfdbe3;font-weight:500;margin-bottom:26px}.mx-dot{width:8px;height:8px;border-radius:50%;background:#34D399;animation:mxPulse 2s infinite}.mx-h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(2.7rem,6.2vw,5.2rem);line-height:1.02;letter-spacing:-.04em;color:#fff;margin-bottom:22px}.mx-grad{background:linear-gradient(100deg,#7EE8DC,#2DD4BF 40%,#F2C14E);-webkit-background-clip:text;background-clip:text;color:transparent}.mx-lead{font-size:1.08rem;line-height:1.75;color:#a9bac6;max-width:560px;margin-bottom:34px}.mx-lead b{color:#fff;font-weight:600}.mx-cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px}.mx-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:100px;font-weight:600;font-size:.92rem;text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s;border:1px solid transparent;font-family:inherit}.mx-btn.primary{background:linear-gradient(135deg,#2DD4BF,#14A3A8);color:#04201f;box-shadow:0 8px 28px rgba(45,212,191,.28)}.mx-btn.primary:hover{transform:translateY(-2px);box-shadow:0 12px 34px rgba(45,212,191,.42)}.mx-btn.ghost{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16);color:#fff}.mx-btn.ghost:hover{background:rgba(255,255,255,.12);transform:translateY(-2px)}.mx-facts{display:flex;flex-wrap:wrap;gap:8px 22px;list-style:none;font-size:.82rem;color:#8fa2af}.mx-facts li{display:flex;align-items:center;gap:8px}.mx-facts li::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold)}.mx-vis{position:relative;height:500px}.mx-glass{position:absolute;border-radius:22px;background:linear-gradient(160deg,rgba(255,255,255,.1),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:0 30px 80px rgba(0,0,0,.45);overflow:hidden}.mx-map{left:0;top:10px;width:86%;height:330px;display:flex;flex-direction:column;animation:mxFloatY 9s ease-in-out infinite}.mx-ch{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;font-size:.78rem;color:#dbe6ec;font-weight:600;border-bottom:1px solid rgba(255,255,255,.08)}.mx-ch em{font-style:normal;color:#8fa2af;font-weight:500}.mx-mapbody{flex:1;min-height:0}.mx-mapbody svg{width:100%;height:100%;display:block}.mx-leg{display:flex;align-items:center;gap:10px;padding:10px 18px 14px;font-size:.7rem;color:#8fa2af}.mx-leg i{flex:1;height:6px;border-radius:6px;background:linear-gradient(90deg,#2DD4BF,#F2C14E,#EF6B4A)}.mx-term{right:0;bottom:0;width:80%;background:rgba(7,12,17,.9);font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;animation:mxFloatY 11s ease-in-out infinite reverse}.mx-th{display:flex;align-items:center;gap:7px;padding:12px 16px;border-bottom:1px solid rgba(255,255,255,.08);font-size:.7rem;color:#8fa2af}.mx-th i{width:10px;height:10px;border-radius:50%;background:#ff5f57}.mx-th i:nth-child(2){background:#febc2e}.mx-th i:nth-child(3){background:#28c840}.mx-th span{margin-left:8px}.mx-tb{padding:16px 18px 20px;font-family:inherit;font-size:.74rem;line-height:1.8;color:#c9d6de;white-space:pre-wrap;word-break:break-word}.mx-tb .c{color:#7EE8DC}.mx-tb .k{color:#F2C14E}.mx-tb .o{color:#6f8493}.mx-tb .g{color:#34D399}.mx-tb .m{color:#6f8493}.mx-tb .cur{display:inline-block;width:7px;height:13px;background:#7EE8DC;vertical-align:-2px;margin-left:3px;animation:mxBlink 1s steps(2) infinite}.mx-chip{position:absolute;padding:8px 16px;border-radius:100px;background:rgba(10,17,24,.8);border:1px solid rgba(255,255,255,.16);color:#fff;font-size:.76rem;font-weight:600;box-shadow:0 12px 30px rgba(0,0,0,.35);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}.mx-chip.a{top:-6px;right:2%;animation:mxFloatY 7s ease-in-out infinite}.mx-chip.b{left:-2%;bottom:96px;animation:mxFloatY 8s ease-in-out infinite reverse}.mx-chip::before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--acc);margin-right:8px}.mx-chip.b::before{background:var(--gold)}.mx-pin{transform-box:fill-box;transform-origin:center;animation:mxPing 2.4s ease-out infinite}.mx-marq{background:#070C11;border-top:1px solid rgba(255,255,255,.07);border-bottom:1px solid rgba(255,255,255,.07);overflow:hidden;padding:18px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}.mx-track{display:flex;width:max-content;animation:mxScroll 44s linear infinite}.mx-track span{margin-right:14px;padding:8px 18px;border-radius:100px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);color:#b5c4ce;font-size:.84rem;font-weight:500;white-space:nowrap}.mx-stats{background:#070C11;padding:64px 40px 12px}.mx-stats-in{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.mx-stat{padding:26px;border-radius:20px;background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.09)}.mx-stat-n{display:block;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:2.7rem;letter-spacing:-.03em;line-height:1;background:linear-gradient(120deg,#fff,#7EE8DC);-webkit-background-clip:text;background-clip:text;color:transparent}.mx-stat-l{display:block;margin-top:10px;color:#8fa2af;font-size:.84rem;line-height:1.4}.mx-sec{padding:100px 40px}.mx-wrap{max-width:1100px;margin:0 auto}.mx-light{background:#F4F6F8;color:var(--ink)}.mx-white{background:#fff;color:var(--ink)}.mx-dark{background:#070C11;color:#e8eef2}.mx-eyebrow{display:inline-block;padding:6px 14px;border-radius:100px;background:rgba(14,110,114,.1);color:var(--teal);font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}.mx-dark .mx-eyebrow{background:rgba(45,212,191,.12);color:var(--acc2)}.mx-h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(1.9rem,3.8vw,2.9rem);line-height:1.08;letter-spacing:-.03em;margin-bottom:14px}.mx-sub{max-width:600px;color:#5b6b78;line-height:1.75;margin-bottom:48px;font-size:1.02rem}.mx-dark .mx-sub{color:#8fa2af}.mx-tracks{display:grid;grid-template-columns:1fr 1fr;gap:22px}.mx-card{position:relative;border-radius:24px;padding:34px;background:#fff;border:1px solid rgba(10,17,24,.07);box-shadow:var(--card-sh);overflow:hidden;transition:transform .3s,box-shadow .3s}.mx-card::before{content:'';position:absolute;inset:0;background:radial-gradient(420px circle at var(--mx,50%) var(--my,0%),rgba(45,212,191,.14),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}.mx-card:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(10,17,24,.12)}.mx-card:hover::before{opacity:1}.mx-ico{width:54px;height:54px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:22px;background:linear-gradient(135deg,#14A3A8,#0E6E72);color:#fff}.mx-card.alt .mx-ico{background:linear-gradient(135deg,#F2C14E,#d99a1e);color:#3a2a00}.mx-ico svg{width:26px;height:26px}.mx-card h3{font-family:'Space Grotesk',sans-serif;font-size:1.55rem;letter-spacing:-.02em;margin-bottom:10px}.mx-card p{color:#51616d;line-height:1.75;font-size:.97rem;margin-bottom:20px}.mx-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}.mx-chips span{padding:6px 14px;border-radius:100px;background:#F0F3F6;font-size:.8rem;font-weight:600;color:#33444f}.mx-chips span.hl{background:rgba(14,110,114,.1);color:var(--teal)}.mx-link{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.9rem;color:var(--teal);text-decoration:none;transition:gap .2s}.mx-link:hover{gap:12px}.mx-feat{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.mx-pc{border-radius:22px;overflow:hidden;background:#fff;border:1px solid rgba(10,17,24,.07);box-shadow:var(--card-sh);cursor:pointer;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s}.mx-pc:hover,.mx-pc:focus-visible{transform:translateY(-6px);box-shadow:0 24px 60px rgba(10,17,24,.14)}.mx-pc-img{position:relative;aspect-ratio:16/10;overflow:hidden;background:linear-gradient(135deg,#0E6E72,#0A1118)}.mx-pc-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}.mx-pc:hover .mx-pc-img img{transform:scale(1.06)}.mx-pc-img .card-badge{position:absolute;left:14px;top:14px;margin:0;box-shadow:0 4px 14px rgba(0,0,0,.2)}.mx-pc-b{padding:22px 24px 24px;display:flex;flex-direction:column;gap:6px;flex:1}.mx-pc-org{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--teal)}.mx-pc h3{font-family:'Space Grotesk',sans-serif;font-size:1.14rem;line-height:1.3;letter-spacing:-.015em}.mx-pc p{font-size:.88rem;color:#5b6b78;line-height:1.65}.mx-pc-go{margin-top:auto;padding-top:12px;color:var(--teal);font-weight:700;font-size:.86rem}.mx-more{margin-top:34px;text-align:center}.mx-now{display:grid;grid-template-columns:1.2fr 1fr;gap:22px}.mx-stack{display:grid;gap:22px}.mx-dcard{border-radius:24px;padding:30px;background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.1)}.mx-status{display:inline-flex;align-items:center;gap:8px;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}.mx-status i{width:7px;height:7px;border-radius:50%;background:var(--gold);animation:mxPulseG 2s infinite}.mx-dcard h3{font-family:'Space Grotesk',sans-serif;font-size:1.4rem;letter-spacing:-.02em;color:#fff;margin-bottom:10px}.mx-dcard p{color:#9fb0bb;line-height:1.7;font-size:.94rem}.mx-steps{list-style:none;margin-top:22px;display:grid;gap:13px}.mx-steps li{display:flex;align-items:center;gap:12px;font-size:.92rem;color:#8fa2af}.mx-steps li::before{content:'';width:20px;height:20px;border-radius:50%;flex:none;border:2px solid rgba(255,255,255,.2)}.mx-steps li.done{color:#fff}.mx-steps li.done::before{background:#2DD4BF url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23042f2c' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'><path d='M5 12l5 5 9-10'/></svg>") center/12px no-repeat;border-color:#2DD4BF}.mx-steps li.next{color:#fff}.mx-steps li.next::before{border-color:var(--gold);box-shadow:0 0 0 4px rgba(242,193,78,.18)}.mx-bar{height:6px;border-radius:6px;background:rgba(255,255,255,.1);margin-top:24px;overflow:hidden}.mx-bar b{display:block;height:100%;width:60%;background:linear-gradient(90deg,#2DD4BF,#F2C14E);border-radius:6px}.mx-barl{margin-top:8px;font-size:.76rem;color:#6f8493}.mx-dcard .mx-chips span{background:rgba(255,255,255,.08);color:#d3e0e7}.mx-dcard .mx-chips{margin:18px 0 0}.mx-ctab{position:relative;overflow:hidden;border-radius:32px;padding:80px 40px;text-align:center;background:radial-gradient(600px 300px at 20% 0%,rgba(45,212,191,.35),transparent 70%),radial-gradient(500px 300px at 90% 100%,rgba(242,193,78,.25),transparent 70%),#0d1c26;border:1px solid rgba(255,255,255,.1)}.mx-ctab h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(2rem,4.4vw,3.2rem);letter-spacing:-.035em;line-height:1.05;color:#fff;margin-bottom:14px}.mx-ctab p{color:#b4c5cf;max-width:520px;margin:0 auto 32px;line-height:1.75}.mx-ctab .mx-cta{justify-content:center;margin:0}.mx-foot{background:#070C11;border-top:1px solid rgba(255,255,255,.07);padding:28px 40px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;color:#7f93a1;font-size:.84rem}.mx-foot a{color:var(--acc2);text-decoration:none}.js .rv:not(.in){opacity:0}.js .rv.in{animation:mxIn .8s cubic-bezier(.2,.7,.2,1) var(--d,0s) backwards}@keyframes mxIn{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}@keyframes mxFloat{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(4%,6%,0) scale(1.12)}}@keyframes mxFloatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}@keyframes mxPulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.6)}70%{box-shadow:0 0 0 9px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}@keyframes mxPulseG{0%{box-shadow:0 0 0 0 rgba(242,193,78,.6)}70%{box-shadow:0 0 0 8px rgba(242,193,78,0)}100%{box-shadow:0 0 0 0 rgba(242,193,78,0)}}@keyframes mxPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.6);opacity:0}}@keyframes mxBlink{50%{opacity:0}}@keyframes mxScroll{to{transform:translateX(-50%)}}@media(max-width:960px){.mx-hero{padding:104px 20px 60px;min-height:auto}.mx-hero-in{grid-template-columns:1fr;gap:44px}.mx-vis{height:430px}.mx-stats{padding:44px 20px 8px}.mx-stats-in{grid-template-columns:1fr 1fr}.mx-sec{padding:64px 20px}.mx-tracks,.mx-feat,.mx-now{grid-template-columns:1fr}.mx-ctab{padding:56px 22px;border-radius:26px}.mx-foot{padding:24px 20px}.page-inner{padding:48px 20px 72px}.detail-header{padding:100px 20px 40px}nav{padding:0 6px 0 16px}.nav-btn{padding:7px 10px;font-size:.7rem;letter-spacing:.02em}}@media(max-width:560px){.nav-logo{display:none}nav{padding:0 6px;justify-content:center}.mx-chip.b{display:none}.mx-tb{font-size:.66rem}}@media(prefers-reduced-motion:reduce){.mx-aurora i,.mx-glass,.mx-chip,.mx-track,.mx-pin,.mx-dot,.mx-status i,.mx-cur{animation:none!important}.js .rv:not(.in){opacity:1}.js .rv.in{animation:none}html{scroll-behavior:auto}}
 </style>
+<script>document.documentElement.className+=" js"</script>
 </head>
 <body>
 
@@ -165,21 +169,159 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
 
 <!-- ═══════════════ HOME ═══════════════ -->
 <div id="page-home" class="page active">
-  <div class="home-hero">
-    <p class="home-tag">Geomatics · GIS · Cartography · Surveying</p>
-    <h1 class="home-name">Ariel Laurier Dadji Nzetam</h1>
-    <p class="home-subtitle">GIS & Cartography Portfolio</p>
-    <div class="home-nav-buttons">
-      <a class="home-nav-btn primary" href="#projects">View Projects</a>
-      <a class="home-nav-btn" href="#about">About Me</a>
-      <a class="home-nav-btn" href="#skills">Skills</a>
-      <a class="home-nav-btn" href="#contact">Contact</a>
-    </div>
-  </div>
-  <div class="home-footer-bar">
-    <span>Abbotsford, BC, Canada &nbsp;·&nbsp; Available for relocation</span>
-    <a href="mailto:arielnzetam@gmail.com">arielnzetam@gmail.com</a>
-  </div>
+
+<section class="mx-hero">
+<div class="mx-aurora"><i></i><i></i><i></i></div>
+<div class="mx-grid"></div>
+<div class="mx-hero-in">
+<div>
+<div class="mx-pill rv"><span class="mx-dot"></span>Open to GIS and IT roles · Abbotsford, BC</div>
+<h1 class="mx-h1 rv" style="--d:.08s">Mapping land.<br><span class="mx-grad">Building systems.</span></h1>
+<p class="mx-lead rv" style="--d:.16s">I'm <b>Ariel Dadji</b>. I hold a Master's in Surveying and Land Registry and spent more than three years producing maps and surveys in Cameroon. Today I'm studying Computer Information Systems in Canada and building hands-on labs in Windows Server and Active Directory.</p>
+<div class="mx-cta rv" style="--d:.24s">
+<a class="mx-btn primary" href="#projects">See my work &rarr;</a>
+<a class="mx-btn ghost" href="#contact">Get in touch</a>
+</div>
+<ul class="mx-facts rv" style="--d:.32s">
+<li>Abbotsford, BC</li>
+<li>English and French</li>
+<li>Open to relocation in Canada</li>
+</ul>
+</div>
+
+<div class="mx-vis rv" style="--d:.2s" aria-hidden="true">
+<div class="mx-glass mx-map">
+<div class="mx-ch"><span>Flood susceptibility</span><em>West Region, Cameroon</em></div>
+<div class="mx-mapbody"><svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="mxh1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#EF6B4A" stop-opacity=".85"/><stop offset=".45" stop-color="#F2C14E" stop-opacity=".45"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient><radialGradient id="mxh2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".5"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient></defs><circle cx="140" cy="118" r="110" fill="url(#mxh1)"/><circle cx="318" cy="168" r="80" fill="url(#mxh2)"/><g id="mxrings"></g><path d="M-10 214 C70 180 120 232 205 192 S330 118 410 138" fill="none" stroke="#5aa9ff" stroke-opacity=".75" stroke-width="2.2" stroke-linecap="round"/><path d="M-10 214 C70 180 120 232 205 192 S330 118 410 138" fill="none" stroke="#5aa9ff" stroke-opacity=".25" stroke-width="7" stroke-linecap="round"/><circle class="mx-pin" cx="140" cy="118" r="7" fill="#F2C14E" fill-opacity=".5"/><circle cx="140" cy="118" r="4" fill="#F2C14E" stroke="#fff" stroke-width="1.5"/><circle class="mx-pin" cx="318" cy="168" r="7" fill="#2DD4BF" fill-opacity=".5"/><circle cx="318" cy="168" r="4" fill="#2DD4BF" stroke="#fff" stroke-width="1.5"/><text x="152" y="104" fill="#fff" font-size="9.5" font-family="JetBrains Mono,monospace" font-weight="600">HIGH</text><text x="330" y="154" fill="#fff" font-size="9.5" font-family="JetBrains Mono,monospace" font-weight="600">LOW</text></svg></div>
+<div class="mx-leg">Low<i></i>High</div>
+</div>
+<div class="mx-glass mx-term">
+<div class="mx-th"><i></i><i></i><i></i><span>DC01 · home lab</span></div>
+<pre class="mx-tb"><span class="c">PS C:\&gt;</span> <span class="k">Install-WindowsFeature</span> AD-Domain-Services
+<span class="o">Success  Restart Needed  Exit Code</span>
+<span class="g">True     No              Success</span>
+
+<span class="c">PS C:\&gt;</span> <span class="m"># next: promote to domain controller</span><span class="cur"></span></pre>
+</div>
+<div class="mx-chip a">ArcGIS Pro</div>
+<div class="mx-chip b">Active Directory</div>
+</div>
+</div>
+</section>
+
+<div class="mx-marq" aria-hidden="true"><div class="mx-track"><span>ArcGIS Pro</span><span>QGIS</span><span>Global Mapper</span><span>AutoCAD</span><span>Google Earth Engine</span><span>Sentinel-1 SAR</span><span>DEM / DTM analysis</span><span>GNSS / GPS</span><span>Windows Server</span><span>Active Directory</span><span>Cisco Packet Tracer</span><span>VirtualBox</span><span>SQL</span><span>Java</span><span>JavaScript</span><span>ArcGIS Pro</span><span>QGIS</span><span>Global Mapper</span><span>AutoCAD</span><span>Google Earth Engine</span><span>Sentinel-1 SAR</span><span>DEM / DTM analysis</span><span>GNSS / GPS</span><span>Windows Server</span><span>Active Directory</span><span>Cisco Packet Tracer</span><span>VirtualBox</span><span>SQL</span><span>Java</span><span>JavaScript</span></div></div>
+
+<section class="mx-stats">
+<div class="mx-stats-in">
+<div class="mx-stat rv"><span class="mx-stat-n">3+</span><span class="mx-stat-l">Years of professional experience</span></div>
+<div class="mx-stat rv"><span class="mx-stat-n">6</span><span class="mx-stat-l">Featured projects</span></div>
+<div class="mx-stat rv"><span class="mx-stat-n">300+</span><span class="mx-stat-l">Rural water networks surveyed</span></div>
+<div class="mx-stat rv"><span class="mx-stat-n">EN / FR</span><span class="mx-stat-l">Fully bilingual</span></div>
+</div>
+</section>
+
+<section class="mx-sec mx-light">
+<div class="mx-wrap">
+<span class="mx-eyebrow rv">What I do</span>
+<h2 class="mx-h2 rv">Two tracks, one way of working</h2>
+<p class="mx-sub rv">Clean data, clear documentation and results someone else can check. The same habits carry across both.</p>
+<div class="mx-tracks">
+<div class="mx-card rv">
+<div class="mx-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+<h3>GIS &amp; Geomatics</h3>
+<p>Spatial analysis, cartography and survey data for government, infrastructure and engineering projects across Cameroon.</p>
+<div class="mx-chips"><span class="hl">ArcGIS Pro</span><span class="hl">QGIS</span><span class="hl">Global Mapper</span><span>DEM / DTM analysis</span><span>Flood susceptibility</span></div>
+<a class="mx-link" href="#projects">Explore the projects <span>&rarr;</span></a>
+</div>
+<div class="mx-card alt rv" style="--d:.1s">
+<div class="mx-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/><path d="M7 7h.01M7 17h.01"/></svg></div>
+<h3>IT &amp; Systems</h3>
+<p>Certificate student in Computer Information Systems at UFV. I practise on my own labs: Windows Server, Active Directory and networking in Cisco Packet Tracer.</p>
+<div class="mx-chips"><span class="hl">Windows Server</span><span class="hl">Active Directory</span><span class="hl">Cisco Packet Tracer</span><span>VirtualBox</span><span>Networking</span></div>
+<a class="mx-link" href="#skills">See my skills <span>&rarr;</span></a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="mx-sec mx-white">
+<div class="mx-wrap">
+<span class="mx-eyebrow rv">Featured work</span>
+<h2 class="mx-h2 rv">Recent GIS projects</h2>
+<p class="mx-sub rv">Maps, surveys and spatial analyses from research, government and infrastructure mandates. Open any project to see the full maps.</p>
+<div class="mx-feat">
+<div class="mx-pc rv" onclick="showDetail('thesis')" role="link" tabindex="0" onkeydown="if(event.key==='Enter')showDetail('thesis')">
+<div class="mx-pc-img"><img data-proj="thesis" alt="Flood susceptibility map"><span class="card-badge">MEng Research</span></div>
+<div class="mx-pc-b"><div class="mx-pc-org">ENSTP, Yaoundé · 2024</div><h3>Flood Susceptibility Mapping, Western Highlands of Cameroon</h3><p>Multi-criteria GIS analysis to map pluvial flood risk. Defended before a jury in 2024.</p><span class="mx-pc-go">View project &rarr;</span></div>
+</div>
+<div class="mx-pc rv" style="--d:.08s" onclick="showDetail('mincaf')" role="link" tabindex="0" onkeydown="if(event.key==='Enter')showDetail('mincaf')">
+<div class="mx-pc-img"><img data-proj="mincaf" alt="Road network and administrative boundary map"><span class="card-badge">Government Mapping</span></div>
+<div class="mx-pc-b"><div class="mx-pc-org">MINCAF, Nord Region · 2024</div><h3>Road Network &amp; Administrative Boundary Mapping</h3><p>Official maps showing where roads cross administrative boundaries across the Nord Region.</p><span class="mx-pc-go">View project &rarr;</span></div>
+</div>
+<div class="mx-pc rv" style="--d:.16s" onclick="showDetail('ingeo')" role="link" tabindex="0" onkeydown="if(event.key==='Enter')showDetail('ingeo')">
+<div class="mx-pc-img"><img data-proj="ingeo" alt="Water network topographic plan"><span class="card-badge">BAD Water Project</span></div>
+<div class="mx-pc-b"><div class="mx-pc-org">INGEO TOPO · 2024</div><h3>Water Access Infrastructure Mapping, Rural Cameroon</h3><p>Topographic surveys and DEM analysis for 300+ rural drinking water networks, with a team of 10 surveyors.</p><span class="mx-pc-go">View project &rarr;</span></div>
+</div>
+</div>
+<p class="mx-more rv"><a class="mx-btn primary" href="#projects" style="color:#04201f">See all 6 projects &rarr;</a></p>
+</div>
+</section>
+
+<section class="mx-sec mx-dark">
+<div class="mx-wrap">
+<span class="mx-eyebrow rv">Right now</span>
+<h2 class="mx-h2 rv" style="color:#fff">Currently building</h2>
+<p class="mx-sub rv">Hands-on labs and small projects I'm working on this term.</p>
+<div class="mx-now">
+<div class="mx-dcard rv">
+<span class="mx-status"><i></i>In progress</span>
+<h3>Active Directory home lab</h3>
+<p>A Windows Server 2025 domain controller running in VirtualBox, built one step at a time and documented as I go.</p>
+<ul class="mx-steps">
+<li class="done">Virtual machine created</li>
+<li class="done">Windows Server 2025 installed</li>
+<li class="done">Active Directory Domain Services role installed</li>
+<li class="next">Promote the server to a domain controller</li>
+<li>Users, groups and access policies</li>
+</ul>
+<div class="mx-bar"><b></b></div>
+<div class="mx-barl">3 of 5 steps done</div>
+</div>
+<div class="mx-stack">
+<div class="mx-dcard rv" style="--d:.1s">
+<span class="mx-status"><i></i>In progress</span>
+<h3>Networking labs</h3>
+<p>Switching, routing and IP addressing exercises in Cisco Packet Tracer for my UFV networking course.</p>
+<div class="mx-chips"><span>Cisco Packet Tracer</span><span>Routing</span><span>Switching</span></div>
+</div>
+<div class="mx-dcard rv" style="--d:.2s">
+<span class="mx-status"><i></i>Prototype</span>
+<h3>Aurore, a demo catalogue site</h3>
+<p>A watch catalogue with search, filters and WhatsApp ordering. It's a demo with example products, nothing is for sale.</p>
+<div class="mx-chips"><span>HTML / CSS / JavaScript</span><span>Cloudflare Pages</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="mx-sec mx-dark" style="padding-top:0">
+<div class="mx-wrap">
+<div class="mx-ctab rv">
+<h2>Let's work together.</h2>
+<p>Open to GIS, cartography and IT roles, and to relocation anywhere in Canada.</p>
+<div class="mx-cta">
+<a class="mx-btn primary" href="mailto:arielnzetam@gmail.com">arielnzetam@gmail.com</a>
+<a class="mx-btn ghost" href="https://www.linkedin.com/in/ariel-laurier-dadji-nzetam-94a20b1a9" target="_blank" rel="noopener">LinkedIn &nearr;</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="mx-foot">
+<span>&copy; Ariel Laurier Dadji Nzetam · Abbotsford, BC, Canada</span>
+<a href="mailto:arielnzetam@gmail.com">arielnzetam@gmail.com</a>
+</footer>
 </div>
 
 <!-- ═══════════════ ABOUT ═══════════════ -->
@@ -195,6 +337,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
       <div>
         <div class="about-text">
           <p>I specialize in cadastral mapping, topographic surveying, road network analysis, flood susceptibility modelling, and regulatory GIS mapping. My work has supported government land registries, African Development Bank water infrastructure projects, and national professional orders.</p>
+          <p>Alongside GIS, I am completing a Certificate in Computer Information Systems at the University of the Fraser Valley and building hands-on labs in networking, Windows Server and Active Directory.</p>
           <p>I am currently based in Abbotsford, BC, Canada, open to relocation anywhere within Canada, and available to travel to site locations, workshops, or project meetings as required.</p>
         </div>
         <div class="about-edu">
@@ -332,9 +475,21 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
     <div class="page-header">
       <p class="page-label">Technical Skills</p>
       <h2 class="page-title">Tools & Expertise</h2>
-      <p class="page-sub">Technical skills developed through academic training, government projects, and professional field experience in geomatics and GIS.</p>
+      <p class="page-sub">Technical skills developed through academic training, government projects, field experience in geomatics and GIS, and hands-on IT labs.</p>
     </div>
     <div class="skills-grid">
+
+      <div class="skill-card feat">
+        <div class="skill-card-title">IT &amp; Systems</div>
+        <div class="skill-tags">
+          <span class="skill-tag highlight">Windows Server</span>
+          <span class="skill-tag highlight">Active Directory</span>
+          <span class="skill-tag highlight">Cisco Packet Tracer</span>
+          <span class="skill-tag">VirtualBox</span>
+          <span class="skill-tag">Networking fundamentals</span>
+          <span class="skill-tag">IP addressing</span>
+        </div>
+      </div>
 
       <div class="skill-card">
         <div class="skill-card-title">GIS & Geospatial Software</div>
@@ -431,7 +586,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;justify-content
   <div class="contact-inner">
     <p class="page-label">Get In Touch</p>
     <h2 class="page-title">Let's work together.</h2>
-    <p class="page-sub">Available for GIS, cartography, and geomatics roles. Open to relocation anywhere within Canada and available to travel for site work, workshops, or project meetings.</p>
+    <p class="page-sub">Available for GIS, cartography, geomatics and IT roles. Open to relocation anywhere within Canada and available to travel for site work, workshops, or project meetings.</p>
     <div class="contact-links">
       <a href="mailto:arielnzetam@gmail.com" class="contact-btn primary">arielnzetam@gmail.com</a>
       <a href="https://www.linkedin.com/in/ariel-laurier-dadji-nzetam-94a20b1a9" target="_blank" class="contact-btn outline">LinkedIn ↗</a>
@@ -593,6 +748,44 @@ const PROJECTS = {
 function openLightbox(img){document.getElementById('lb-img').src=img.src;document.getElementById('lightbox').classList.add('active')}
 function closeLightbox(){document.getElementById('lightbox').classList.remove('active')}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
+</script>
+<script>
+(function(){
+  function rings(){
+    var g=document.getElementById('mxrings');if(!g||g.childNodes.length)return;
+    function ring(cx,cy,r,ax,ph){var d='',n=64;for(var i=0;i<n;i++){var t=2*Math.PI*i/n,k=1+.13*Math.sin(3*t+ph)+.07*Math.sin(5*t+ph*1.7)+.04*Math.sin(8*t+ph*.6);d+=(i?'L':'M')+(cx+r*ax*k*Math.cos(t)).toFixed(1)+' '+(cy+r*k*Math.sin(t)).toFixed(1)}return d+'Z'}
+    var h='';
+    for(var i=0,r=14;r<150;i++,r+=15)h+='<path d="'+ring(140,118,r,1.25,.4+i*.11)+'" fill="none" stroke="#7EE8DC" stroke-opacity="'+Math.max(.55-i*.03,.12).toFixed(2)+'"/>';
+    for(var j=0,q=12;q<76;j++,q+=13)h+='<path d="'+ring(318,168,q,1.15,2.1+j*.15)+'" fill="none" stroke="#7EE8DC" stroke-opacity="'+Math.max(.5-j*.07,.15).toFixed(2)+'"/>';
+    g.innerHTML=h;
+  }
+  function run(){
+    rings();
+    document.querySelectorAll('[data-proj]').forEach(function(im){
+      var id=im.getAttribute('data-proj');
+      var src=document.querySelector('.proj-card[onclick*="(\''+id+'\')"] .card-thumb');
+      if(src&&src.getAttribute('src'))im.src=src.getAttribute('src');
+    });
+    document.querySelectorAll('.proj-card,.skill-card,.edu-item,.stat-box').forEach(function(e,i){
+      e.classList.add('rv');
+      if(!e.style.getPropertyValue('--d'))e.style.setProperty('--d',((i%3)*.08)+'s');
+    });
+    document.querySelectorAll('.mx-card').forEach(function(c){
+      c.addEventListener('pointermove',function(e){
+        var r=c.getBoundingClientRect();
+        c.style.setProperty('--mx',(e.clientX-r.left)+'px');
+        c.style.setProperty('--my',(e.clientY-r.top)+'px');
+      });
+    });
+    var els=[].slice.call(document.querySelectorAll('.rv'));
+    if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return}
+    var io=new IntersectionObserver(function(en){
+      en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}});
+    },{threshold:.1,rootMargin:'0px 0px -30px 0px'});
+    els.forEach(function(e){io.observe(e)});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();
+})();
 </script>
 </body>
 </html>
